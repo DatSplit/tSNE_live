@@ -449,15 +449,15 @@ if __name__ == "__main__":
 'wheel':'blue', 'trex':'pink', 'blade':'greenyellow', 'skeleton':'tomato', 
 'torso':'orchid', 'bridge':'fuchsia', 'chess_piece':'dodgerblue', 'chest':'palevioletred', 'dragon':'khaki', 'bed':'aquamarine', 
 'gun':'plum', 'microchip':'lightgreen', 'shoe':'deeppink', 'snowman':'mediumslateblue', 'swingset':'lightsalmon', 'train':'paleturquoise'}
-    fake_handles = [mpatches.Patch(color=item) for item in colordict.values()]
-    plt.rcParams['figure.figsize'] = [15, 15]
-    plt.rcParams['font.size'] = 8
-    label = colordict.keys()
-    plt.legend(fake_handles, label, loc='upper right', prop={'size': 10})   
-    print((feature_matrix.shape))
-    print('0',feature_matrix[300][0])
-    print('1',feature_matrix[300][55])
-    plt.title('t-SNE plot of the Princeton dataset feature vectors projected in 2D.')
+#     fake_handles = [mpatches.Patch(color=item) for item in colordict.values()]
+#     plt.rcParams['figure.figsize'] = [15, 15]
+#     plt.rcParams['font.size'] = 8
+#     label = colordict.keys()
+# #     plt.legend(fake_handles, label, loc='upper right', prop={'size': 10})   
+#     print((feature_matrix.shape))
+#     print('0',feature_matrix[300][0])
+#     print('1',feature_matrix[300][55])
+#     plt.title('t-SNE plot of the Princeton dataset feature vectors projected in 2D.')
     for i in range(0,len(feature_matrix)):
         #print(f)
         
