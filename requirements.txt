@@ -61,7 +61,6 @@ protobuf==3.20.3
 psutil==5.9.2
 pure-eval==0.2.2
 pyarrow==9.0.0
-pycddlib==2.1.6
 pydeck==0.8.0b4
 pyglet==1.5.27
 Pygments==2.13.0
