@@ -13,16 +13,16 @@
 #  Copyright (c) 2008 Tilburg University. All rights reserved.
 
 import numpy as np
-import pylab
+#import pylab
 import pandas as pd
 import json
 import matplotlib.pyplot as plt
 import matplotlib.patches as mpatches
 import seaborn as sns
-import mplcursors
-import plotly
-import pickle
-import streamlit as st
+# import mplcursors
+# import plotly
+# import pickle
+# import streamlit as st
 import plotly.express as px
 def Hbeta(D=np.array([]), beta=1.0):
     """
