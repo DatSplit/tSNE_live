@@ -252,10 +252,10 @@ if __name__ == "__main__":
     # X = np.loadtxt("mnist2500_X.txt")
     # labels = np.loadtxt("mnist2500_labels.txt")
 
-    with open(r'C:\Users\niels\MR\INFOMR-Multimedia-Retrieval\labels\id_to_label_49.json', 'rb') as file:
+    with open(r'id_to_label_49.json', 'rb') as file:
         id_to_label = json.load(file)    
-    df = pd.read_csv(r"C:\Users\niels\Downloads\df.csv", index_col=0)    
-    with open(r'C:\Users\niels\MR\INFOMR-Multimedia-Retrieval\labels\label_to_id_49.json', 'rb') as file:
+    df = pd.read_csv(r"df.csv", index_col=0)    
+    with open(r'label_to_id_49.json', 'rb') as file:
         label_to_id = json.load(file)
     
     # with open(r'C:\Users\niels\MR\INFOMR-Multimedia-Retrieval\labels\id_to_label_7.json', 'rb') as file:
