@@ -106,6 +106,5 @@ validators==0.20.0
 vg==2.0.0
 watchdog==2.1.9
 wcwidth==0.2.5
-windows-curses==2.3.0
 wrapt==1.14.1
 zipp==3.10.0
